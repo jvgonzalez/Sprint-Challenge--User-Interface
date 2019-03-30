@@ -51,6 +51,38 @@ table {
     box-sizing: border-box;
 }
 
+header {
+    height: 240px;
+    margin-left: 240px;
+}
+
+.navigation a{
+	border-radius: 2px;
+	color: grey;
+	font-size: 15px;
+	padding: 5px 8px;
+	margin-right: 25px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	background-color: orange;
+	color: white;
+}
+
+.navigation img {
+	display: inline-block;
+	margin-left: 150px;
+	padding:11px;
+    vertical-align: middle;
+    
+}
+
+.logo{
+    margin-right: 50px;
+}
+
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -66,10 +98,47 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
+body {
+        margin: 26px auto;
+        width:  876px;
+    }
+
+    .container {
+        margin: 26px auto;
+        width:  876px;
+    }
+    
+    
+    .navigation a{
+        border-radius: 2px;
+        color: grey;
+        font-size: 15px;
+        padding: 5px 8px;
+        text-decoration: none;
+    }
+    
+    .navigation a:hover {
+        background-color: orange;
+        color: white;
+    }
+    
+    .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navigation img {
+        
+        display: inline-block;
+        margin-left: 170px;
+        padding:11px;
+        vertical-align: middle;
+    }
+
+    header{
+        margin-left: 22px;
+    }
 
 .top-content {
     display: flex;
@@ -101,7 +170,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -144,3 +213,73 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.containerpage{
+    padding: 40px 0 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+    flex-flow: row wrap;
+
+    
+}
+
+.containerpage{
+    text-decoration: none;
+}
+.containerpage section{ 
+
+
+	width: 390px;
+	display: inline-block;
+	padding: 20px;
+	margin-bottom: 40px;
+    background-color: white;
+    margin-right: 45px;
+
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.box#one{
+background-color:teal;
+}
+
+.box#two{
+    background-color: gold;
+}
+
+.box#three{
+background-color: cadetblue;
+}
+
+.box#four{
+background-color: coral
+}
+
+.box#five{
+background-color: crimson
+}
+
+.box#six{
+background-color: forestgreen
+}
+
+.box#seven{
+background-color: darkorchid
+}
+
+.box#eight{
+ background-color: pink
+}
+
+.box#nine{
+background-color: indigo
+}
+
+.box#ten{
+background-color: dodgerblue
+}
+
